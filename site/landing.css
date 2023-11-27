@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_big{
+    height: 100px;
+}
+
+.link_top{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.header_coworking{
+    font-weight: bold;
+ font-size: 72px;
+ line-height: 86px;
+ margin-bottom: 39px;
+}
+
+.text_section1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 39px;
+}
+
+.button{
+    border-radius: 6px;
+ width: 160px;
+ height: 50px;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 17px;
+ color: #ED4C5C;
+}
+
+.header_section2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.text_features{
+    font-size: 14px;
+ line-height: 140%;
+ margin-bottom: 14px;
+}
+
+.link_more{
+    font-size: 14px;
+ line-height: 140%;
+ color: #ED4C5C;
+}
+
+.header_features{
+    margin-bottom:  63px;
+}
+
+.header4{
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.text_section3{
+    margin-bottom: 5px;
+}
+
+.header_money{
+    margin-bottom: 45px;
+}
+
+.header_contacts{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 24px;
+   margin-bottom: 53px;
+}
+
+.footer{
+    height: 110px;
+}
