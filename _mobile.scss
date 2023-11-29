@@ -1,0 +1,272 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+
+    .header {
+        padding-top: 32px;
+        border: none;
+
+        &__input{
+            display: none;
+        }
+    }
+
+    .logo {
+        width: 99px;
+    }
+
+    .menu {
+        display: none;
+
+        &__mob {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .title {
+        padding: unset;
+        align-items: center;
+        align-content: unset;
+      
+         &__big {
+        text-align: center;
+        font-size: 48px;
+        }
+         &__text {
+            font-size: 16px;
+            line-height: 32px;
+            /* 200% */
+        }
+    }
+
+    .link__top {
+        font-size: 14px;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    .for__header {
+        font-size: 24px;
+    }
+
+    .for__box {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+    }
+
+    .for__item {
+        grid-column: 1 / -1;
+        height: 375px;
+        font-size: 28px;
+    }
+
+    .for_item_big {
+        height: 243px;
+    }
+
+    .product {
+        padding-top: 32px;
+
+    }
+
+    .product__heading {
+        font-size: 24px;
+    }
+
+    .product__content {
+        row-gap: 32px;
+
+    }
+
+    .product__box {
+        width: 342px;
+    }
+
+    .product_img {
+        width: 342px;
+    }
+
+    .product__header {
+        font-size: 18px;
+    }
+
+    .price__product {
+        font-size: 18px;
+    }
+
+    .price__sale {
+        font-size: 18px;
+    }
+
+    .main_box {
+        padding-top: 36px;
+    }
+
+    .main_heading {
+        font-size: 24px;
+        margin: unset;
+    }
+
+    .product_main_box{
+        display: flex;
+        justify-content: center;
+    }
+
+    .product_main{
+        width: 342px;
+    }
+
+    .product__text{
+        width: 342px;
+    }
+
+    .link__box {
+        height: unset;
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+    .Footer{
+        padding-bottom: 32px;
+    }
+
+    .footer_content {
+        gap: 34px;
+        justify-content: center;
+    }
+
+    .Footer_info{
+        gap: 100px;
+    }
+
+
+    /* Каталог*/
+    
+
+    .top__catalog {
+        display: flex;
+        gap: 82px;
+        text-align: center;
+    }
+
+    .catalog_text {
+        font-size: 48px;
+    }
+
+    .catalog_link {
+        font-size: 14px;
+
+    }
+
+    .select {
+        font-size: 14px;
+
+        &_box {
+            padding: unset;
+        }
+    }
+
+    .info_box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding-top: 32px;
+    }
+
+    .catalog_info {
+        padding-top: unset;
+    }
+
+
+    /* Корзина */
+
+
+    .top_cart {
+        display: flex;
+        gap: 82px;
+        text-align: center;
+    }
+
+    .cart_text {
+        font-size: 48px;
+    }
+
+    .cart {
+        gap: 48px;
+        margin-top: 92px;
+    }
+
+    .cart_name_text {
+        display: none;
+
+    }
+
+    .cart_item {
+        padding-bottom: 18px;
+    }
+
+    .cart_product {
+        display: none;
+    }
+
+    .cart_info {
+        width: 253px;
+    }
+
+    .cart_header_info {
+        font-size: 18px;
+    }
+
+    .cart_text_info {
+        font-size: 12px;
+    }
+
+    .cart_price_info {
+        font-size: 12px;
+    }
+
+    .cart_button_box {
+        gap: 14px;
+        padding-top: 14px;
+        margin-top: unset;
+    }
+
+    .cart_button_1 {
+        height: 37px;
+        width: 166px;
+        font-size: 12px;
+    }
+
+    .cart_button_2 {
+        height: 37px;
+        width: 163px;
+        font-size: 12px;
+    }
+
+    .cart_form {
+        grid-column: span 8;
+        width: 343px;
+    }
+
+    .product_box {
+        padding-top: 48px;
+    }
+
+
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    
+}
+
